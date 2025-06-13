@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Élan Chaussures</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Élan <span>Chaussures</span></h1>
+      <nav>
+        <ul>
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#produits">Produits</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="accueil" class="hero">
+    <div class="overlay">
+      <h2>Chaque pas compte</h2>
+      <p>Des chaussures élégantes, modernes et durables.</p>
+      <a href="#produits" class="btn">Voir la collection</a>
+    </div>
+  </section>
+
+  <section id="produits">
+    <h2>Nos Modèles</h2>
+    <div class="carrousel">
+      <div class="slide active">
+        <img src="image/ahh.jpg" alt="Chaussure 1" />
+        <h3>Élégante</h3>
+      </div>
+      <div class="slide">
+        <img src="image/basketball.jpg" alt="Chaussure 2" />
+        <h3>Sport</h3>
+      </div>
+      <div class="slide">
+        <img src="image/femme.jpg" alt="Chaussure 3" />
+        <h3>Casual</h3>
+      </div>
+        <div class="slide">
+            <img src="image/homme.jpg" alt="Chaussure 4" />
+            <h3>Confort</h3>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contactez-nous</h2>
+    <form id="contact-form">
+      <input type="text" id="nom" placeholder="Nom complet" required />
+      <input type="email" id="email" placeholder="Adresse email" required />
+      <textarea id="message" placeholder="Votre message" required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+    <p id="confirmation"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Élan Chaussures. Tous droits réservés. Au DAZGARO</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
